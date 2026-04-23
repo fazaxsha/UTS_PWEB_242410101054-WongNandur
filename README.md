@@ -100,19 +100,13 @@ http://localhost:8000
 
 ## 📸 Screenshot
 
-> **Cara menambahkan screenshot:**
-> 1. Jalankan project, lalu screenshot tiap halaman (Login, Dashboard, Pengelolaan, Profil)
-> 2. Simpan gambar ke folder `public/screenshots/` di dalam project
-> 3. Push ke GitHub, lalu ganti bagian `URL_GAMBAR` di bawah ini dengan URL raw GitHub-nya
->    - Contoh URL: `https://raw.githubusercontent.com/username/UTS_PWEB_242410101054/main/public/screenshots/login.png`
-
 | Login | Dashboard |
 |-------|-----------|
-| ![Login](URL_GAMBAR_LOGIN) | ![Dashboard](URL_GAMBAR_DASHBOARD) |
+| ![Login](https://github.com/fazaxsha/fazaxsha/blob/main/public/images/halaman%20login.png) | ![Dashboard](https://github.com/fazaxsha/fazaxsha/blob/main/public/images/Dashboard.png) |
 
 | Pengelolaan | Profil |
 |-------------|--------|
-| ![Pengelolaan](URL_GAMBAR_PENGELOLAAN) | ![Profil](URL_GAMBAR_PROFIL) |
+| ![Pengelolaan](https://github.com/fazaxsha/fazaxsha/blob/main/public/images/pengelolaan.png) | ![Profil](https://github.com/fazaxsha/fazaxsha/blob/main/public/images/profile.png) |
 
 ---
 
