@@ -69,8 +69,8 @@ wong-nandur/
 
 **1. Clone repo ini**
 ```bash
-https://github.com/fazaxsha/fazaxsha.git
-cd fazaxsha
+https://github.com/fazaxsha/UTS_PWEB_242410101054-WongNandur.git
+cd UTS_PWEB_242410101054-WongNandur
 ```
 
 **2. Install dependencies**
