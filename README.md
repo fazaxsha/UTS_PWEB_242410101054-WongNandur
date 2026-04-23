@@ -114,7 +114,7 @@ http://localhost:8000
 
 | Teknologi | Keterangan |
 |-----------|-----------|
-| Laravel 13 | Framework PHP MVC |
+| Laravel 11 | Framework PHP MVC |
 | Blade Engine | Sistem templating (`@extends`, `@yield`, `@section`, `x-component`) |
 | Bootstrap 5 | Framework CSS untuk layout & responsivitas |
 | DM Serif Display | Font display (judul) |
