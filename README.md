@@ -1,4 +1,4 @@
-# 🌿 Wong Nandur
+# 🪴 Wong Nandur
 ### Sistem Pengelolaan Kebun Hidroponik
 
 <p align="center">
