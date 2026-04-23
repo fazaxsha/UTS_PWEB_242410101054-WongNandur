@@ -1,4 +1,4 @@
-# 🌿 Wong Nandur
+# 🪴 Wong Nandur
 ### Sistem Pengelolaan Kebun Hidroponik
 
 <p align="center">
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <b>UTS Pemrograman Web Genap 25/26 — Kelas SI</b><br>
+  <b>UTS Pemrograman Web Genap 25/26 — Sistem Informasi-B</b><br>
   Fajar Ilham Arifiyanto &nbsp;·&nbsp; 242410101054<br>
   Universitas Jember
 </p>
@@ -69,8 +69,8 @@ wong-nandur/
 
 **1. Clone repo ini**
 ```bash
-git clone https://github.com/username/UTS_PWEB_242410101054.git
-cd UTS_PWEB_242410101054
+https://github.com/fazaxsha/fazaxsha.git
+cd fazaxsha
 ```
 
 **2. Install dependencies**
