@@ -1,11 +1,10 @@
-# 🪴 Wong Nandur
+# 🌿 Wong Nandur
 ### Sistem Pengelolaan Kebun Hidroponik
 
 <p align="center">
   <img src="https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blade-Templating-4A7C2F?style=for-the-badge&logo=laravel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Status-UTS-E8C547?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Verified-E8C547?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -38,22 +37,30 @@ Aplikasi ini mensimulasikan alur kerja nyata seorang petani hidroponik: mulai da
 
 ```
 wong-nandur/
+├── app/
+│   ├── Http/Controllers/
+│   │   └── PageController.php                 # Controller halaman login/dashboard/pengelolaan/profil
+│   ├── Models/
+│   │   └── User.php
+│   └── Providers/
+│       └── AppServiceProvider.php
+├── public/
+│   └── images/
+│       ├── gambar-profil.jpg
+│       └── *.jpg / *.png                      # Gambar tanaman (contoh: selada_hijau.jpg)
+├── resources/views/
+│   ├── layouts/
+│   │   └── app.blade.php                      # Layout utama
+│   ├── components/
+│   │   ├── navbar.blade.php
+│   │   └── footer.blade.php
+│   ├── login.blade.php
+│   ├── dashboard.blade.php
+│   ├── pengelolaan.blade.php
+│   └── profile.blade.php
 ├── routes/
-│   └── web.php                          # Definisi semua route
-│
-├── app/Http/Controllers/
-│   └── PageController.php               # Satu controller untuk semua halaman
-│
-└── resources/views/
-    ├── layouts/
-    │   └── app.blade.php                # Layout utama (extends oleh semua view)
-    ├── components/
-    │   ├── navbar.blade.php             # Komponen navigasi
-    │   └── footer.blade.php             # Komponen footer
-    ├── login.blade.php                  # Halaman login
-    ├── dashboard.blade.php              # Halaman dashboard
-    ├── pengelolaan.blade.php            # Halaman pengelolaan tanaman
-    └── profile.blade.php               # Halaman profil
+│   └── web.php
+└── README.md
 ```
 
 ---
@@ -113,7 +120,7 @@ http://localhost:8000
 
 | Teknologi | Keterangan |
 |-----------|-----------|
-| Laravel 11 | Framework PHP MVC |
+| Laravel 13 | Framework PHP MVC |
 | Blade Engine | Sistem templating (`@extends`, `@yield`, `@section`, `x-component`) |
 | Bootstrap 5 | Framework CSS untuk layout & responsivitas |
 | DM Serif Display | Font display (judul) |
